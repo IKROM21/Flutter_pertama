@@ -47,6 +47,8 @@ class AppData {
     Participant(name: 'Faosi', address: 'Makassar'),
     Participant(name: 'Rizal', address: 'Palembang'),
     Participant(name: 'Zahrud', address: 'Bogor'),
+    Participant(name: 'ansori', address: 'Bogor'),
+
   ];
   static final List<Winner> winners = [];
   static final List<Prize> prizes = [
