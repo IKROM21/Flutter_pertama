@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "jalanrusak",
     "short_name": "jalanrusak",
+=======
+    "name": "coba",
+    "short_name": "coba",
+>>>>>>> 97d6f24424e8f17616614a76293933666d4f11f3
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

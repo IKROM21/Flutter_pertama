@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'dart:math';
 
 void main() {
@@ -72,10 +73,28 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const RegistrationPage(),
+=======
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Aplikasi TA Mahasiswa',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
+>>>>>>> 97d6f24424e8f17616614a76293933666d4f11f3
     );
   }
 }
 
+<<<<<<< HEAD
 // Registration Page
 class RegistrationPage extends StatefulWidget {
   const RegistrationPage({super.key});
@@ -606,10 +625,117 @@ class _VerticalListRouletteState extends State<VerticalListRoulette>
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
+=======
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Daftar Rencana TA Mahasiswa"),
+        centerTitle: true,
+        
+      ),
+
+       backgroundColor: const Color.fromARGB(213, 35, 46, 137),
+    
+      body: SingleChildScrollView( // biar bisa di-scroll
+        child: Column(
+          children: [
+  
+
+            // Card 1
+            Card(
+              color: const Color.fromARGB(255, 244, 225, 254), // warna background card
+              elevation: 4,
+              margin: EdgeInsets.all(12),
+              child: ListTile(
+                leading: Icon(Icons.school, color: Colors.blue),
+                title: Text(
+                  "Aplikasi TA Mahasiswa",
+                  style: TextStyle(color: Colors.blue),
+                ),
+                subtitle: Text(
+                  "pemetaan jalan rusak di kec.waru",
+                  style: TextStyle(color: Colors.black87),
+                ),
+              ),
+            ),
+
+            // Card 2
+            Card(
+              color: Colors.lightBlue[50],
+              elevation: 4,
+              margin: EdgeInsets.all(12),
+              child: ListTile(
+                leading: Icon(Icons.school, color: Colors.green),
+                title: Text(
+                  "Aplikasi TA Mahasiswa",
+                  style: TextStyle(color: Colors.green),
+                ),
+                subtitle: Text(
+                  "pusat pengaduan jaringan wifi",
+                  style: TextStyle(color: Colors.black87),
+                ),
+              ),
+            ),
+
+            // Card 3
+            Card(
+              color: Colors.lightBlue[50],
+              elevation: 4,
+              margin: EdgeInsets.all(12),
+              child: ListTile(
+                leading: Icon(Icons.school, color: Colors.red),
+                title: Text(
+                  "Aplikasi TA Mahasiswa",
+                  style: TextStyle(color: Colors.red),
+                ),
+                subtitle: Text(
+                  "Perancangan E-Commerce Toko Madura",
+                  style: TextStyle(color: Colors.black87),
+                ),
+              ),
+            ),
+
+            // Card 4
+            Card(
+              color: Colors.lightBlue[50],
+              elevation: 4,
+              margin: EdgeInsets.all(12),
+              child: ListTile(
+                leading: Icon(Icons.school, color: Colors.purple),
+                title: Text(
+                  "Aplikasi TA Mahasiswa",
+                  style: TextStyle(color: Colors.purple),
+                ),
+                subtitle: Text(
+                  "pemetaan jaringan jalan rusak",
+                  style: TextStyle(color: Colors.black87),
+                ),
+              ),
+            ),
+
+            // Card 5
+            Card(
+              color: Colors.lightBlue[50],
+              elevation: 4,
+              margin: EdgeInsets.all(12),
+              child: ListTile(
+                leading: Icon(Icons.school, color: Colors.orange),
+                title: Text(
+                  "Aplikasi TA Mahasiswa",
+                  style: TextStyle(color: Colors.orange),
+                ),
+                subtitle: Text(
+                  "Sistem Pendukung Keputusan Pemilihan Vendor",
+                  style: TextStyle(color: Colors.black87),
+                ),
+>>>>>>> 97d6f24424e8f17616614a76293933666d4f11f3
               ),
             ),
           ],
         ),
+<<<<<<< HEAD
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -835,10 +961,13 @@ class _VerticalListRouletteState extends State<VerticalListRoulette>
           ),
           const SizedBox(height: 40),
         ],
+=======
+>>>>>>> 97d6f24424e8f17616614a76293933666d4f11f3
       ),
     );
   }
 }
+<<<<<<< HEAD
 
 // Winner List Page
 class WinnerListPage extends StatelessWidget {
@@ -923,3 +1052,5 @@ class WinnerListPage extends StatelessWidget {
     );
   }
 }
+=======
+>>>>>>> 97d6f24424e8f17616614a76293933666d4f11f3

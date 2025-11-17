@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "jalanrusak" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "jalanrusak" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "jalanrusak.exe" "\0"
             VALUE "ProductName", "jalanrusak" "\0"
+=======
+            VALUE "FileDescription", "coba" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "coba" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "coba.exe" "\0"
+            VALUE "ProductName", "coba" "\0"
+>>>>>>> 97d6f24424e8f17616614a76293933666d4f11f3
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
